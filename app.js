@@ -1,11 +1,11 @@
 const projects = [
   {
     name: "Pharmacy Ordering System",
-    desc: "A web app for ordering drugs with cart and tracking"
+    desc: "A web application for ordering pharmaceutical products with cart and tracking features."
   },
   {
     name: "Bug Tracking System",
-    desc: "A system to log and track software bugs"
+    desc: "A system for logging, tracking, and resolving software bugs."
   }
 ];
 
