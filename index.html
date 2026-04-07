@@ -1,50 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ruth Adama | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <h1>Ruth Eleojo Adama</h1>
-  <p>Full Stack Developer & Software Test Analyst</p>
+  <!-- Header -->
+  <header>
+    <h1>Ruth Eleojo Adama</h1>
+    <p>Full Stack Developer & Software Test Analyst</p>
+    <a href="resume.pdf" target="_blank" class="btn">Download Resume</a>
+  </header>
 
-  <a href="resume.pdf" target="_blank" class="btn">
-    Download Resume
-  </a>
-</header>
+  <!-- About Me -->
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I am a Full Stack Developer and Software Test Analyst passionate about
+      building and testing reliable, user-friendly web applications.
+    </p>
+  </section>
 
-<section>
-  <h2>About Me</h2>
-  <p>
-    I am a Full Stack Developer and Software Test Analyst passionate about
-    building and testing reliable, user-friendly web applications.
-  </p>
-</section>
+  <!-- Projects -->
+  <section>
+    <h2>Projects</h2>
+    <div id="projects"></div> <!-- JS will populate this -->
+  </section>
 
-<section>
-  <h2>Projects</h2>
-  <div id="projects"></div>
-</section>
+  <!-- Skills -->
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>MySQL</li>
+      <li>Software Testing (Manual & Automated)</li>
+      <li>WordPress</li>
+    </ul>
+  </section>
 
-<section>
-  <h2>Skills</h2>
-  <ul>
-    <li>HTML, CSS, JavaScript</li>
-    <li>MySQL</li>
-    <li>Software Testing (Manual & Automated)</li>
-    <li>WordPress</li>
-  </ul>
-</section>
+  <!-- Contact -->
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:Ruthadama28@gmail.com">Ruthadama28@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/ruthadama28-dev" target="_blank">github.com/ruthadama28-dev</a></p>
+  </section>
 
-<section>
-  <h2>Contact</h2>
-  <p>Email: Ruthadama28@gmail.com</p>
-  <p>GitHub: github.com/ruthadama28-dev</p>
-</section>
-
-<script src="app.js"></script>
+  <!-- Scripts -->
+  <script src="app.js"></script> <!-- your pharmacy app JS is separate -->
+  <script src="projects.js"></script> <!-- new portfolio JS for project links -->
 
 </body>
 </html>
